@@ -112,7 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &5026388
+--- !u!1 &204744353
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,10 +120,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5026392}
-  - component: {fileID: 5026391}
-  - component: {fileID: 5026390}
-  - component: {fileID: 5026389}
+  - component: {fileID: 204744357}
+  - component: {fileID: 204744356}
+  - component: {fileID: 204744355}
+  - component: {fileID: 204744354}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -131,26 +131,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &5026389
+--- !u!65 &204744354
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026388}
+  m_GameObject: {fileID: 204744353}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &5026390
+--- !u!23 &204744355
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026388}
+  m_GameObject: {fileID: 204744353}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -181,24 +181,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &5026391
+--- !u!33 &204744356
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026388}
+  m_GameObject: {fileID: 204744353}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &5026392
+--- !u!4 &204744357
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5026388}
+  m_GameObject: {fileID: 204744353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.44, y: 2.7, z: 0.051610287}
-  m_LocalScale: {x: 14.056, y: 2.315, z: 1}
+  m_LocalPosition: {x: 1.652, y: 2.011, z: 0}
+  m_LocalScale: {x: 16.081715, y: 1.78068, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
